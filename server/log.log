@@ -5,3 +5,32 @@
 [INFO] 14:26:21:716 Servidor/(6861:6861): Servidor listo para recibir al cliente
 [INFO] 14:33:16:542 Servidor/(7133:7133): Servidor listo para recibir al cliente
 [INFO] 14:36:37:320 Servidor/(7252:7252): Servidor listo para recibir al cliente
+[INFO] 09:52:42:443 Servidor/(3628:3628): Servidor listo para recibir al cliente
+[INFO] 12:15:39:081 Servidor/(5990:5990): Servidor listo para recibir al cliente
+[INFO] 12:28:25:654 Servidor/(6615:6615): Servidor listo para recibir al cliente
+[INFO] 12:29:42:858 Servidor/(6615:6615): Se conecto un cliente!
+[INFO] 12:29:42:858 Servidor/(6615:6615): Me llego el mensaje Hola, soy un valor
+[ERROR] 12:29:42:858 Servidor/(6615:6615): el cliente se desconecto. Terminando servidor
+[INFO] 12:41:55:406 Servidor/(7295:7295): Servidor listo para recibir al cliente
+[INFO] 12:42:04:803 Servidor/(7295:7295): Se conecto un cliente!
+[INFO] 12:42:10:475 Servidor/(7295:7295): Me llegaron los siguientes valores:
+
+[INFO] 12:42:10:475 Servidor/(7295:7295): Me llego el mensaje Hola, soy un valor
+[ERROR] 12:42:10:476 Servidor/(7295:7295): el cliente se desconecto. Terminando servidor
+[INFO] 12:53:56:773 Servidor/(7745:7745): Servidor listo para recibir al cliente
+[INFO] 12:54:26:460 Servidor/(7745:7745): Se conecto un cliente!
+[INFO] 13:08:11:095 Servidor/(8258:8258): Servidor listo para recibir al cliente
+[INFO] 13:12:37:800 Servidor/(8443:8443): Servidor listo para recibir al cliente
+[INFO] 13:12:48:706 Servidor/(8443:8443): Se conecto un cliente!
+[INFO] 13:12:48:706 Servidor/(8443:8443): Me llego el mensaje Hola, soy un valor
+[INFO] 13:12:48:707 Servidor/(8443:8443): Me llego el mensaje 
+[INFO] 13:12:48:707 Servidor/(8443:8443): Me llegaron los siguientes valores:
+
+[ERROR] 13:12:48:707 Servidor/(8443:8443): el cliente se desconecto. Terminando servidor
+[INFO] 22:20:44:765 Servidor/(4341:4341): Servidor listo para recibir al cliente
+[INFO] 22:21:01:272 Servidor/(4341:4341): Se conecto un cliente!
+[INFO] 22:21:01:273 Servidor/(4341:4341): Me llego el mensaje Hola, soy un valor
+[INFO] 22:21:01:273 Servidor/(4341:4341): Me llego el mensaje àù
+[INFO] 22:21:01:273 Servidor/(4341:4341): Me llegaron los siguientes valores:
+
+[ERROR] 22:21:01:273 Servidor/(4341:4341): el cliente se desconecto. Terminando servidor

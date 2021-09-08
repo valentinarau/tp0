@@ -30,17 +30,19 @@ int main(void)
 
 	//Loggear valor de config
 
+
+
+
 	leer_consola(logger);
-
-
-
-
 	/*---------------------------------------------------PARTE 3-------------------------------------------------------------*/
 
 	// Antes de continuar, tenemos que asegurarnos que el servidor esté corriendo porque lo necesitaremos para lo que sigue.
 
 	// Creamos una conexión hacia el servidor
 	conexion = crear_conexion(ip, puerto);
+
+
+
 
 	//enviar CLAVE al servirdor
 	enviar_mensaje(valor,conexion);
@@ -101,9 +103,11 @@ void leer_consola(t_log* logger)
 void paquete(int conexion)
 {
 	//Ahora toca lo divertido!
-
-	char* leido;
-	t_paquete* paquete;
+	char * leido;
+		t_paquete* paquete = crear_paquete();
+		enviar_mensaje(leido, conexion);
+		agregar_a_paquete(paquete, leido, strlen(leido)+1);
+		enviar_paquete(paquete, conexion);
 
 
 }
