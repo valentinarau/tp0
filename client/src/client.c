@@ -10,7 +10,6 @@ int main(void)
 
 	t_log* logger;
 	t_config* config;
-
 	logger = iniciar_logger();
 
 	// Usando el logger creado previamente
@@ -30,10 +29,11 @@ int main(void)
 
 	//Loggear valor de config
 
-
-
-
 	leer_consola(logger);
+
+
+
+
 	/*---------------------------------------------------PARTE 3-------------------------------------------------------------*/
 
 	// Antes de continuar, tenemos que asegurarnos que el servidor esté corriendo porque lo necesitaremos para lo que sigue.
@@ -41,13 +41,12 @@ int main(void)
 	// Creamos una conexión hacia el servidor
 	conexion = crear_conexion(ip, puerto);
 
-
-
-
 	//enviar CLAVE al servirdor
 	enviar_mensaje(valor,conexion);
 
 	paquete(conexion);
+
+	//enviar_paquete(paquete, conexion);
 
 	terminar_programa(conexion, logger, config);
 
@@ -85,31 +84,32 @@ t_config* iniciar_config(void)
 void leer_consola(t_log* logger)
 {
 	char* leido;
-
+	printf("%s", "Leyendo de consola...\n");
 	//El primero te lo dejo de yapa
 	leido = readline("> ");
-
 	while(strcmp(leido,"") != 0 ){
-
 		log_info(logger,"Consola: %s\n",leido);
 		leido = readline("> ");
-
 	}
-	// Acá la idea es que imprimas por el log lo que recibis de la consola.
 	free(leido);
-
+	// Acá la idea es que imprimas por el log lo que recibis de la consola.
 }
 
 void paquete(int conexion)
 {
 	//Ahora toca lo divertido!
-	char * leido;
-		t_paquete* paquete = crear_paquete();
-		enviar_mensaje(leido, conexion);
+
+	char* leido;
+	printf("%s", "Leyendo para enviar a paquete...\n");
+	t_paquete* paquete = crear_paquete();
+	leido = readline("> ");
+	while(*leido != '\0'){
 		agregar_a_paquete(paquete, leido, strlen(leido)+1);
-		enviar_paquete(paquete, conexion);
-
-
+		free(leido);
+		leido = readline("> ");
+	}
+	free(leido);
+	enviar_paquete(paquete,conexion);
 }
 
 void terminar_programa(int conexion, t_log* logger, t_config* config)

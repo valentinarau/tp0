@@ -17,7 +17,18 @@ int main(void) {
 		case PAQUETE:
 			lista = recibir_paquete(cliente_fd);
 			log_info(logger, "Me llegaron los siguientes valores:\n");
-			list_iterate(lista, (void*) iterator);
+			// opcion 1: puts. Funca pero no escribe en el log.
+			//list_iterate(lista, puts);
+			// opcion 2: iterator. No funca porque closure espera un argumento y logger tiene dos?
+			//list_iterate(lista, (void*) iterator);
+			// opcion 3: copypasteo la implementacion de list_iterate y reemplazo closure por el iterator o el log_info, es lo mismo
+			t_link_element *element = lista->head;
+				t_link_element *aux = NULL;
+				while (element != NULL) {
+					aux = element->next;
+					log_info(logger, "%s\n", element->data);
+					element = aux;
+				}
 			break;
 		case -1:
 			log_error(logger, "el cliente se desconecto. Terminando servidor");
