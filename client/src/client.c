@@ -68,7 +68,6 @@ t_config* iniciar_config(void)
 {
 	t_config* nuevo_config = config_create("/home/utnso/Workspace/tp0/client/cliente.config");
 
-
 	return nuevo_config;
 }
 
