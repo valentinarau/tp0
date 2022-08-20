@@ -1,0 +1,27 @@
+[INFO] 01:19:36:173 Servidor/(3515:3515): Servidor listo para recibir al cliente
+[INFO] 01:21:12:812 Servidor/(3515:3515): Se conecto un cliente!
+[INFO] 01:21:12:813 Servidor/(3515:3515): Me llego el mensaje valor
+[ERROR] 01:21:12:813 Servidor/(3515:3515): el cliente se desconecto. Terminando servidor
+[INFO] 01:30:39:303 Servidor/(4044:4044): Servidor listo para recibir al cliente
+[INFO] 01:30:49:912 Servidor/(4044:4044): Se conecto un cliente!
+[INFO] 01:30:49:912 Servidor/(4044:4044): Me llego el mensaje valor
+[INFO] 01:31:07:007 Servidor/(4044:4044): Me llegaron los siguientes valores:
+
+[INFO] 01:31:07:008 Servidor/(4044:4044): como and
+[INFO] 01:31:07:008 Servidor/(4044:4044): hoy es l
+[ERROR] 01:31:07:008 Servidor/(4044:4044): el cliente se desconecto. Terminando servidor
+[INFO] 01:34:00:522 Servidor/(4111:4111): Servidor listo para recibir al cliente
+[INFO] 01:34:21:608 Servidor/(4111:4111): Se conecto un cliente!
+[INFO] 01:34:21:608 Servidor/(4111:4111): Me llego el mensaje valor
+[INFO] 01:34:38:337 Servidor/(4111:4111): Me llegaron los siguientes valores:
+
+[INFO] 01:34:38:338 Servidor/(4111:4111): aguante haskell moderfokers
+[ERROR] 01:34:38:338 Servidor/(4111:4111): el cliente se desconecto. Terminando servidor
+[INFO] 01:35:53:441 Servidor/(4168:4168): Servidor listo para recibir al cliente
+[INFO] 01:36:01:746 Servidor/(4168:4168): Se conecto un cliente!
+[INFO] 01:36:01:746 Servidor/(4168:4168): Me llego el mensaje valor
+[INFO] 01:36:12:052 Servidor/(4168:4168): Me llegaron los siguientes valores:
+
+[INFO] 01:36:12:054 Servidor/(4168:4168): aguante prolog
+[INFO] 01:36:12:054 Servidor/(4168:4168): tengo que hacer el tp de logico :(
+[ERROR] 01:36:12:054 Servidor/(4168:4168): el cliente se desconecto. Terminando servidor
